@@ -1,0 +1,21 @@
+{
+  "app_name": "Lua Obfuscator",
+  "version": "1.0.0",
+  "description": "Bypass Anti-Hook cho Delta X",
+  "default_options": {
+    "vmProtect": true,
+    "encodeStrings": true,
+    "scramble": false,
+    "loadstringMode": false
+  },
+  "protection_levels": [
+    "debug",
+    "normal",
+    "maximum"
+  ],
+  "vm_types": [
+    "none",
+    "stack",
+    "register"
+  ]
+}
